@@ -1,9 +1,7 @@
 /**
- * ◈ GARFIELD-V11-CORE ◈
- * * This architectural core is engineered for performance.
- * Designed & Developed by Tharindu Liyanage
- * * © 2026 Xnodes Laboratory. All rights reserved.
- * ---------------------------------------------------------
+ * 🐼 𝘾𝙔𝘽𝙀𝙍 𝙋𝘼𝙉𝘿𝘼 𝙈𝘿 𝙑.10 🐼
+ * Good performance.
+ * Designed & Developed by Sachith Chandra
  */
 'use strict'
 
@@ -172,8 +170,8 @@ async function handleMessage(conn, mek) {
     if (blocked) {
       return conn.sendMessage(from, {
         text: `*This Bot is not available in ${blocked} 🔒*\n` +
-              `Deploy your own:\nhttps://github.com/xnodesdevelopers/GARFIELD-WHATSAPP-BOT-v10\n` +
-              `_Xnodes Development © 2026_`
+              `Deploy your own:\nhttps://github.com/CYBER-x-SACHIYA-SL-MD-BOT/CYBER-PANDA-MD-V10\n` +
+              `_Cyber Panda Development © 2024_`
       }, { quoted: mek })
     }
 
@@ -290,7 +288,7 @@ async function connectToWA() {
       console.log('Scan the QR above with WhatsApp\n')
     }
     if (connection === 'open') {
-      console.log('🐼 GARFIELD BOT CONNECTED\n')
+      console.log('🐼 𝘾𝙔𝘽𝙀𝙍 𝙋𝘼𝙉𝘿𝘼 𝙈𝘿 𝙑.10 🐼\n')
       loadPlugins()
     }
     if (connection === 'close') {
@@ -323,5 +321,5 @@ async function connectToWA() {
 }
 
 // ── boot ──────────────────────────────────────────────────────
-console.log('🐼 GARFIELD BOT v11 — Xnodes Development\n')
+console.log('🐼 𝘾𝙔𝘽𝙀𝙍 𝙋𝘼𝙉𝘿𝘼 𝙈𝘿 𝙑.10 🐼\n')
 connectToWA()
