@@ -1,9 +1,5 @@
 /**
- * ◈ GARFIELD-V11-CORE ◈
- * * This architectural core is engineered for performance.
- * Designed & Developed by Tharindu Liyanage
- * * © 2026 Xnodes Laboratory. All rights reserved.
- * ---------------------------------------------------------
+ * 🐼 𝘾𝙔𝘽𝙀𝙍 𝙋𝘼𝙉𝘿𝘼 𝙈𝘿 𝙑.10 🐼
  */
 const { commands } = require('../command')
 const config = require('../config')
@@ -20,9 +16,9 @@ commands.push({
     const { from } = ctx
 
     const msg =
-      `*${config.BOT_NAME || 'GARFIELD'} is Online!* 🐼🔥\n\n` +
+      `*${config.BOT_NAME || 'CYBER-PANDA-MD-V10'} is Online!* 🐼🔥\n\n` +
       `*Runtime:* ${(process.uptime() / 60).toFixed(2)} mins\n` +
-      `*Version:* v11\n` +
+      `*Version:* v10\n` +
       `*Status:* High Speed & Optimized ⚡\n` +
       `*Platform:* Linux (Server)\n\n` +
       `> Type *${config.PREFIX}menu* to see all commands.\n` +
