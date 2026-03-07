@@ -1,9 +1,5 @@
 /**
- * ◈ GARFIELD-V11-CORE ◈
- * * This architectural core is engineered for performance.
- * Designed & Developed by Tharindu Liyanage
- * * © 2026 Xnodes Laboratory. All rights reserved.
- * ---------------------------------------------------------
+ * 🐼 𝘾𝙔𝘽𝙀𝙍 𝙋𝘼𝙉𝘿𝘼 𝙈𝘿 𝙑.10 🐼
  */
 const { commands } = require('../command')
 const { facebook } = require('another-fb-video-downloader')
@@ -56,7 +52,7 @@ commands.push({
       document: { url: file },
       mimetype: 'video/mp4',
       fileName: 'FacebookVideo.mp4',
-      caption:  `🎬 *GARFIELD FB DOWNLOADER*\n\n🌍 *Source:* Facebook\n_Xnodes Development © 2026_`
+      caption:  `🎬 *🐼 𝘾𝙔𝘽𝙀𝙍 𝙋𝘼𝙉𝘿𝘼 𝙈𝘿 𝙑.10 🐼*\n\n🌍 *Source:* Facebook\n_Development © 2026_`
     }, { quoted: mek })
 
     if (fs.existsSync(file)) fs.unlinkSync(file)
