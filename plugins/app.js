@@ -1,9 +1,5 @@
 /**
- * ◈ GARFIELD-V11-CORE ◈
- * * This architectural core is engineered for performance.
- * Designed & Developed by Tharindu Liyanage
- * * © 2026 Xnodes Laboratory. All rights reserved.
- * ---------------------------------------------------------
+ * 🐼 𝘾𝙔𝘽𝙀𝙍 𝙋𝘼𝙉𝘿𝘼 𝙈𝘿 𝙑.10 🐼
  */
 const { commands } = require('../command')
 const { pipeline } = require('stream/promises')
@@ -61,7 +57,7 @@ commands.push({
       `\`\`\`📂 Size    : ${size} MB\`\`\`\n` +
       `\`\`\`⚙️ Version : ${app.file.vername}\`\`\`\n` +
       `\`\`\`🛡️ Package : ${app.package}\`\`\`\n\n` +
-      `> _Xnodes Development © 2026_`
+      `🐼 𝘾𝙔𝘽𝙀𝙍 𝙋𝘼𝙉𝘿𝘼 𝙈𝘿 𝙑.10 🐼`
 
     await conn.sendMessage(from, {
       document: { url: file },
