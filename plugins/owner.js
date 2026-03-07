@@ -3,7 +3,7 @@
  */
 const { commands } = require('../command')
 
-const LOGO = 'https://github.com/Zenoixnoize/GARFIELD-WHATSAPP-BOT-v8/raw/asdf/Cloud/logo.png'
+const LOGO = 'https://github.com/user-attachments/assets/9e3aa5ee-58e4-499d-9877-483a972fe16a'
 
 const ownerInfo =
   `🐼 𝘾𝙔𝘽𝙀𝙍 𝙋𝘼𝙉𝘿𝘼 𝙈𝘿 𝙑.10 🐼\n\n` +
