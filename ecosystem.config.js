@@ -1,13 +1,9 @@
 /**
- * ◈ GARFIELD-V11-CORE ◈
- * * This architectural core is engineered for performance.
- * Designed & Developed by Tharindu Liyanage
- * * © 2026 Xnodes Laboratory. All rights reserved.
- * ---------------------------------------------------------
+ * 🐼 𝘾𝙔𝘽𝙀𝙍 𝙋𝘼𝙉𝘿𝘼 𝙈𝘿 𝙑.10 🐼
  */
 module.exports = {
   apps: [{
-    name:                  'garfield',
+    name:                  'CYBER-PANDA-MD-V10',
     script:                'index.js',
 
     // ── memory & restart ──────────────────
