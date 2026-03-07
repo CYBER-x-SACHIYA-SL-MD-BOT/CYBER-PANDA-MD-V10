@@ -26,8 +26,8 @@ commands.push({
       `*Status:* High Speed & Optimized ⚡\n` +
       `*Platform:* Linux (Server)\n\n` +
       `> Type *${config.PREFIX}menu* to see all commands.\n` +
-      `> 📦 https://github.com/xnodesdevelopers/GARFIELD-V11-CORE\n` +
-      `> © Ｘｎｏｄｅｓ 2026`
+      `> 📦 https://github.com/CYBER-x-SACHIYA-SL-MD-BOT/CYBER-PANDA-MD-V10\n` +
+      `>`
 
     if (videoBuffer) {
       await conn.sendMessage(from, {
