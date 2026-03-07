@@ -46,8 +46,8 @@ commands.push({
       const buffer = Buffer.concat(chunks)
 
       const sticker = new Sticker(buffer, {
-        pack:    'Garfield Bot 🐼',
-        author:  pushname || 'Xnodes',
+        pack:    '🐼 𝘾𝙔𝘽𝙀𝙍 𝙋𝘼𝙉𝘿𝘼 𝙈𝘿 𝙑.10 🐼',
+        author:  pushname || 'Sachith',
         type:    StickerTypes.FULL,
         quality: 50,
       })
