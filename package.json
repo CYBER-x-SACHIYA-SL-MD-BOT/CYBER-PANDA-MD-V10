@@ -1,13 +1,13 @@
 {
-  "name": "garfield-bot",
+  "name": "CYBER-PANDA-MD-V10",
   "version": "11.0.0",
-  "description": "GARFIELD WhatsApp Bot - Xnodes Development",
+  "description": "Cyber Panda WhatsApp Bot",
   "main": "index.js",
   "scripts": {
-    "start": "pm2 start index.js --name garfield --max-memory-restart 450M --restart-delay 3000 --no-autorestart && pm2 logs garfield",
-    "stop": "pm2 stop garfield",
-    "restart": "pm2 restart garfield",
-    "logs": "pm2 logs garfield",
+    "start": "pm2 start index.js --name CYBER-PANDA-MD-V10 --max-memory-restart 450M --restart-delay 3000 --no-autorestart && pm2 logs CYBER-PANDA-MD-V10",
+    "stop": "pm2 stop CYBER-PANDA-MD-V10",
+    "restart": "pm2 restart CYBER-PANDA-MD-V10",
+    "logs": "pm2 logs CYBER-PANDA-MD-V10",
     "status": "pm2 status"
   },
   "dependencies": {
