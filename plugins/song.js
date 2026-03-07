@@ -1,9 +1,5 @@
 /**
- * ◈ GARFIELD-V11-CORE ◈
- * * This architectural core is engineered for performance.
- * Designed & Developed by Tharindu Liyanage
- * * © 2026 Xnodes Laboratory. All rights reserved.
- * ---------------------------------------------------------
+ * 🐼 𝘾𝙔𝘽𝙀𝙍 𝙋𝘼𝙉𝘿𝘼 𝙈𝘿 𝙑.10 🐼
  */
 const { commands } = require('../command')
 const { chromium } = require('playwright')
@@ -95,7 +91,8 @@ commands.push({
       caption: `*🎵 ${video.title}*\n` +
                `*⏱️ Duration:* ${video.timestamp}\n` +
                `*👤 Artist:* ${video.author.name}\n\n` +
-               `_Downloading..._`
+               `_Downloading..._
+               🐼 𝘾𝙔𝘽𝙀𝙍 𝙋𝘼𝙉𝘿𝘼 𝙈𝘿 𝙑.10 🐼`
     }, { quoted: mek })
 
     let file
