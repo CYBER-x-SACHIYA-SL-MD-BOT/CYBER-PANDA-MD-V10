@@ -48,7 +48,7 @@ module.exports = {
   BOT_NAME: 'GARFIELD',
 
   // ── your whatsapp number (no + sign) ──────────────────
-  OWNER_NUMBER: '94711502119',
+  OWNER_NUMBER: '94783552317',
 
   // ── who can use the bot ───────────────────────────────
   // public | private | groups | inbox
