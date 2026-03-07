@@ -1,27 +1,18 @@
 /**
- * ◈ GARFIELD-V11-CORE ◈
- * * This architectural core is engineered for performance.
- * Designed & Developed by Tharindu Liyanage
- * * © 2026 Xnodes Laboratory. All rights reserved.
- * ---------------------------------------------------------
+ * 🐼 𝘾𝙔𝘽𝙀𝙍 𝙋𝘼𝙉𝘿𝘼 𝙈𝘿 𝙑.10 🐼
  */
 const { commands } = require('../command')
 
 const LOGO = 'https://github.com/Zenoixnoize/GARFIELD-WHATSAPP-BOT-v8/raw/asdf/Cloud/logo.png'
 
 const ownerInfo =
-  `🐺 *Ｇ Ａ Ｒ Ｆ Ｉ Ｅ Ｌ Ｄ  ·  O W N E R* 🐺\n\n` +
-  `👤 *Name:* Tharindu Liyanage (sanku)\n` +
-  `🎓 *Education:* UOR | Faculty of Applied Science\n` +
+  `🐼 𝘾𝙔𝘽𝙀𝙍 𝙋𝘼𝙉𝘿𝘼 𝙈𝘿 𝙑.10 🐼\n\n` +
+  `👤 *Name:* Sachith Chandra (Sachiya)\n` +
   `🎂 *Age:* 20\n` +
-  `🌙 *Personality:* Introvert 🐺\n` +
   `💻 *Role:* Student | Programmer\n\n` +
-  `🔗 *Social Links:*\n` +
-  `🌐 fb.com/Sankuliyan\n` +
-  `📸 instagram.com/liyanage_tharindu_\n` +
-  `🐙 github.com/xnodesdevelopers\n` +
-  `📦 github.com/xnodesdevelopers/GARFIELD-WHATSAPP-BOT-v10\n\n` +
-  `> © Ｘｎｏｄｅｓ 2026`
+  `🐙 https://github.com/CYBER-x-SACHIYA-SL-MD-BOT\n` +
+  `📦 https://github.com/CYBER-x-SACHIYA-SL-MD-BOT/CYBER-PANDA-MD-V10\n\n` +
+  `🐼 𝘾𝙔𝘽𝙀𝙍 𝙋𝘼𝙉𝘿𝘼 𝙈𝘿 𝙑.10 🐼`
 
 commands.push({
   pattern: 'owner',
